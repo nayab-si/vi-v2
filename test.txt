@@ -1,0 +1,521 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vodafone</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <!-- <header>
+        <div class="logo">
+          <img src="./assets/vi_logo_png.png" alt="logo" />
+        </div>
+        <div class="nav_items">
+          <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">My Vi Store</a></li>
+          </ul>
+        </div>
+      </header> -->
+
+      <header class="primary-header">
+        <div class="container">
+          <a href="#"> <img src="./assets/vi_logo_png.png" alt="logo" /></a>
+          <nav class="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="#">Home </a></li>
+              <li><a href="#">Timeline</a></li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">My Vi Store</a></li>
+            </ul>
+          </nav>
+          <!-- <button class="button">Get Started</button> -->
+        </div>
+      </header>
+
+      <!-- <section>
+        <div class="Stores">
+          <ul>
+            <li>Stores Near me /</li>
+            <li>Haryana /</li>
+            <li>Gurugram /</li>
+            <li>Palam Vihar</li>
+          </ul>
+        </div>
+        <div class="sec_box">
+          <div class="left_sec">
+            <div class="bold_txt">
+              <p>Vi - Vodafone Idea mini Store</p>
+            </div>
+            <div class="sml_txt">Diya Telecom</div>
+            <div class="rating">
+              <img
+                src="./assets/Screenshot 2023-05-05 122021.png"
+                alt="stars"
+              />
+            </div>
+            <div class="contacts">
+              <div class="tabs">
+                <div class="icons">
+                  <div class="images">
+                    <img src="./assets/aim.png" alt="location" />
+                  </div>
+                  <div class="txt">
+                    <p>
+                      Shop No 2, Ashok Vihar, Phase 3 Palam Vihar Gurugram -
+                      122001
+                    </p>
+                  </div>
+                </div>
+                <div class="icons">
+                  <div class="images">
+                    <img src="./assets/aim.png" alt="location" />
+                  </div>
+                  <div class="txt"><p>Opposite Jannat Hospital</p></div>
+                </div>
+                <div class="icons">
+                  <div class="images">
+                    <img src="./assets/aim.png" alt="location" />
+                  </div>
+                  <div class="txt"><p>+919911836199</p></div>
+                </div>
+                <div class="icons">
+                  <div class="images">
+                    <img src="./assets/aim.png" alt="location" />
+                  </div>
+                  <div class="txt"><p>Open until 07:00 PM Open Now</p></div>
+                </div>
+              </div>
+            </div>
+            <button class="get">get directions</button>
+            <button class="call">Call Now</button>
+          </div>
+          <div class="right_sec">
+            <div class="reviews_ratings">
+              <div class="reviews">
+                <p>rating & reviews</p>
+                <a href="">View all</a>
+              </div>
+              <div class="stars">
+                3.3
+                <img src="./assets/Screenshot 2023-05-05 122021.png" alt="" />
+              </div>
+              <div class="customers">
+                <div class="txt">
+                  <p>Vivek Maurya</p>
+                  <div class="rating">
+                    <img
+                      src="./assets/Screenshot 2023-05-05 122021.png"
+                      alt="stars"
+                    />
+                  </div>
+                </div>
+
+                <div class="time_line"><p>Posted on 05-03-2022</p></div>
+              </div>
+              <p class="dotted">Best product</p>
+
+              <div class="customers">
+                <div class="txt">
+                  <p>Vivek Maurya</p>
+                  <div class="rating">
+                    <img
+                      src="./assets/Screenshot 2023-05-05 122021.png"
+                      alt="stars"
+                    />
+                  </div>
+                </div>
+
+                <div class="time_line"><p>Posted on 05-03-2022</p></div>
+              </div>
+              <p>supporting staff</p>
+
+              <button button>submit a review</button>
+            </div>
+            <div class="options">
+              <div class="option_tab">
+                <p>parking options</p>
+                <div class="arrow">
+                  <img src="./assets/arrow-down-sign-to-navigate.png" alt="" />
+                </div>
+              </div>
+
+              <div class="option_tab">
+                <p>payment methods</p>
+                <div class="arrow">
+                  <img src="./assets/arrow-down-sign-to-navigate.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2">
+          <div class="home">
+            <img
+              src="./assets/Vi-Max-Postpaid-GMB-Banner-1280x421-04-02-11-22-12-31-57.jpg"
+              alt=""
+            />
+          </div>
+          <div class="home_txt">
+            <p>Vodafone Idea Limited stores nearest to your search</p>
+          </div>
+          <div class="home_cards">
+            <div class="card1">
+              <p class="big_txts">Vi - Vodafone Idea mini Store</p>
+              <p>Mt Enterprises</p>
+
+              <div class="rating">
+                <img
+                  src="./assets/Screenshot 2023-05-05 122021.png"
+                  alt="stars"
+                />
+              </div>
+              <div class="icons">
+                <div class="images">
+                  <img src="./assets/aim.png" alt="location" />
+                </div>
+                <div class="txt">
+                  <p>
+                    Shop No 2, Ashok Vihar, Phase 3 Palam Vihar Gurugram -
+                    122001
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card1 card_hide">
+              <p class="big_txts">Vi - Vodafone Idea mini Store</p>
+              <p>Mt Enterprises</p>
+              <div class="rating">
+                <img
+                  src="./assets/Screenshot 2023-05-05 122021.png"
+                  alt="stars"
+                />
+              </div>
+              <div class="icons">
+                <div class="images">
+                  <img src="./assets/aim.png" alt="location" />
+                </div>
+                <div class="adress">
+                  <p>
+                    Shop No 2, Ashok Vihar, Phase 3 Palam Vihar Gurugram -
+                    122001
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card1 card_hide">
+              <p class="big_txts">Vi - Vodafone Idea mini Store</p>
+              <p>Mt Enterprises</p>
+              <div class="rating">
+                <img
+                  src="./assets/Screenshot 2023-05-05 122021.png"
+                  alt="stars"
+                />
+              </div>
+              <div class="icons">
+                <div class="images">
+                  <img src="./assets/aim.png" alt="location" />
+                </div>
+                <div class="txt">
+                  <p>
+                    Shop No 2, Ashok Vihar, Phase 3 Palam Vihar Gurugram -
+                    122001
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="intro"><p>get in touch for new connections</p></div>
+
+          <div class="txt_form">
+            <div class="forms">
+              <input type="text" value="name" placeholder="name*" />
+              <input type="email" value="email-id" placeholder="name*" />
+              <input type="number" value="number" placeholder="Mobile no.*" />
+              <input type="text" value="city" placeholder="Select city*" />
+              <input
+                type="text"
+                value="product"
+                placeholder="select product*"
+              />
+            </div>
+          </div>
+          <div class="sub_btn"><button class="submit">SUBMIT</button></div>
+        </div>
+        <div class="page3">
+          <div class="featured_container">
+            <p class="services">featured services</p>
+            <div class="feat_serv">
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/sim-card.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/sim-card.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/crown.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/file.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/travelling.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+              <div class="feat_box">
+                <div class="feat_img">
+                  <img src="./assets/help.png" alt="" />
+                </div>
+                <li><a href="#"> Buy Postpaid</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_us">
+          <div class="top_line"><p>about Vodafone Idea Limited</p></div>
+          <div class="intro">
+            <p>
+              Vi(Vodafone Idea) Limited is an Aditya Birla Group and Vodafone
+              Group partnership. It is India’s leading telecom service provider.
+              The Company provides pan India Voice and Data services across 2G,
+              3G and 4G platform and has a 5G ready network. With the large
+              spectrum portfolio to support the growing demand for data and
+              voice, the company is committed to deliver delightful customer
+              experiences and contribute towards creating a truly ‘Digital
+              India’ by enabling millions of citizens to connect and build a
+              better tomorrow. The Company is developing infrastructure to
+              introduce newer and smarter technologies, making both retail and
+              enterprise customers future ready with innovative offerings,
+              conveniently accessible through an ecosystem of digital channels
+              as well as extensive on-ground presence. The Company is listed on
+              National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) in
+              India. The company offers products and services to its customers
+              in India under the TM Brand name “Vi”. For more information,
+              please visit: www.myvi.in and www.vodafoneidea.com The address of
+              this store is Shop No 2, Ashok Vihar, Phase 3, Opposite Jannat
+              Hospital, Palam Vihar, Gurugram, Haryana - 122001.
+            </p>
+            <div class="vi_logo">
+              <img
+                src="./assets/3740_1646292393_311645174002Aboutus.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="blogs">
+          <p>blogs</p>
+          <div class="blog_cards">
+            <div class="card_items">
+              <div class="fansy_card">
+                <div class="card_img">
+                  <img
+                    src="./assets/4777_1677255333_SagittariansluckynumberGMB0_1.jpg"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Sagittarius: Increase your luck with a special Vi phone number
+                </p>
+              </div>
+              <div class="fansy_card card_hide">
+                <div class="card_img">
+                  <img
+                    src="./assets/296_1677255600_SMPostStatic332x249.jpg"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Sagittarius: Increase your luck with a special Vi phone number
+                </p>
+              </div>
+              <div class="fansy_card card_hide">
+                <div class="card_img">
+                  <img
+                    src="./assets/5932_1677255791_5BestMobileGamesof2022GMB0.jpg"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Sagittarius: Increase your luck with a special Vi phone number
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <div class="timeline"><p>social timeline</p></div>
+          <div class="social_cards">
+            <div class="card_tabs">
+              <p>
+                Here’s your chance to win the hottest prizes. Comment
+                #Vi20FANFest with the right answer to all the questions today…
+              </p>
+              <p class="posted">Posted on : 31 Mar 2023</p>
+              <div class="social_handle">
+                <img src="./assets/facebook.png" alt="" />
+                <img src="./assets/whatsapp.png" alt="" />
+                <img src="./assets/twitter.png" alt="" />
+              </div>
+            </div>
+            <div class="card_tabs">
+              <p>
+                Here’s your chance to win the hottest prizes. Comment
+                #Vi20FANFest with the right answer to all the questions today…
+              </p>
+              <p class="posted">Posted on : 31 Mar 2023</p>
+              <div class="social_handle">
+                <img src="./assets/facebook.png" alt="" />
+                <img src="./assets/whatsapp.png" alt="" />
+                <img src="./assets/twitter.png" alt="" />
+              </div>
+            </div>
+            <div class="card_tabs">
+              <p>
+                Here’s your chance to win the hottest prizes. Comment
+                #Vi20FANFest with the right answer to all the questions today…
+              </p>
+              <p class="posted">Posted on : 31 Mar 2023</p>
+              <div class="social_handle">
+                <img src="./assets/facebook.png" alt="" />
+                <img src="./assets/whatsapp.png" alt="" />
+                <img src="./assets/twitter.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="discover">
+          <div class="dis_txt"><p>discover more with us</p></div>
+        </div>
+        <div class="qr_code">
+          <div class="qr_left">
+            <div class="qr_img"><img src="./assets/download.png" alt="" /></div>
+            <div class="fullscn">
+              <img src="./assets/fullscreen.png" alt="" />
+              <p>Click on QR code to enlarg</p>
+            </div>
+          </div>
+          <div class="qr_right">
+            <p>
+              Tell us about your experience. <br />
+              Scan this QR code to discover more with us.
+            </p>
+            <button>DOWNLOAD QR</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="cat_list">
+          <div class="categories">
+            <p class="bold">categories</p>
+            <p>Telecommunications Service Provider</p>
+            <p>Mobile Network Operator</p>
+            <p>Internet Service Provider</p>
+            <p>Telephone Company</p>
+            <p>Telecommunications Contractor</p>
+          </div>
+          <div class="categories">
+            <p class="bold">other Vodafone Idea Limited stores</p>
+            <p>Vodafone Idea Limited stores in Haryana</p>
+            <p>Vodafone Idea Limited stores in Gurugram</p>
+            <p class="bold">plus code</p>
+            <div class="pin_code">
+              <p>7JWVF5JX+FW Gurugram, Haryana, India</p>
+              <!-- <img src="./assets/placeholder.png" alt="" /> -->
+            <!-- </div>
+          </div>
+          <div class="categories">
+            <p class="bold">tags</p>
+            <p>mobile recharge</p>
+            <p>online mobile shopping</p>
+            <p>port sim</p>
+            <p>sim port number</p>
+            <p>vi online recharge</p>
+            <p>Website Builder</p>
+            <p>wifi plans</p>
+            <p>Internet Service Provider</p>
+          </div>
+          <div class="categories">
+            <p>online mobile recharge</p>
+            <p>port number</p>
+            <p>recharge prepaid</p>
+            <p>Smartphones near me</p>
+            <p>SIM Exchange</p>
+            <p>vodafone recharge online prepaid</p>
+            <p>Mobile Network Operator</p>
+          </div>
+          <div class="categories">
+            <p>mobile store</p>
+            <p>port mobile number</p>
+            <p>recharge online</p>
+            <p>unlimited wifi plans for home</p>
+            <p>vi postpaid customer care number</p>
+            <p>vodafone data plans</p>
+            <p>Telecommunications Service Provider</p>
+          </div>
+        </div>
+        <div class="bottom_bar">
+          <div class="btm_images">
+            <img src="./assets/whatsapp.png" alt="" />
+            <img src="./assets/whatsapp.png" alt="" />
+            <img src="./assets/whatsapp.png" alt="" />
+            <img src="./assets/whatsapp.png" alt="" />
+          </div>
+          <div class="powerd"><p>Powered by : SingleInterface</p></div>
+        </div> -->
+      </footer> -->
+    </div>
+  </body>
+</html> -->
+
+
+
+
+
+
+
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+} a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}

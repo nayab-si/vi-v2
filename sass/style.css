@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  border: 2px solid black;
+}
+body main .review_DiyaTelecom {
+  display: flex;
+}
+body main .review_DiyaTelecom .rating_stars {
+  width: 100px;
+}
+body main .review_DiyaTelecom .rating_stars img {
+  width: 100%;
+}
+body main .review_DiyaTelecom .left_sec {
+  width: 50%;
+}
+body main .review_DiyaTelecom .left_sec .bold_txt {
+  font-size: 30px;
+  font-family: ViBold;
+  color: #2f3043;
+}
+body main .review_DiyaTelecom .left_sec .sml_txt {
+  font-size: 24px;
+  font-weight: 400;
+  color: #595969;
+}
+body main .review_DiyaTelecom .left_sec .outlet_details_box {
+  border: 2px solid green;
+}
+body main .review_DiyaTelecom .left_sec .outlet_details_box .each_detail {
+  display: flex;
+}
+body main .review_DiyaTelecom .left_sec .outlet_details_box .each_detail .details_icons {
+  width: 10%;
+}
+body main .review_DiyaTelecom .left_sec .outlet_details_box .each_detail .details_icons img {
+  width: 20%;
+}
+body main .review_DiyaTelecom .right_sec {
+  border: 2px solid red;
+  width: 50%;
+}
+body main .review_DiyaTelecom .right_sec .txt_with_stars {
+  display: flex;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .reviews_title {
+  justify-content: space-between;
+  display: flex;
+  border: 2px solid red;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .outlet_overall_rating {
+  justify-content: space-between;
+  display: flex;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .outlet_overall_rating .txt_with_stars {
+  display: flex;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .customers {
+  justify-content: space-between;
+  display: flex;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .border_dotted {
+  border-bottom: dotted 2px black;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .parking_options {
+  border: 2px solid red;
+}
+body main .review_DiyaTelecom .right_sec .rating_reviews .parking_options .option_tab {
+  justify-content: space-between;
+  display: flex;
+}
+body main .review_DiyaTelecom .right_sec .icon_arrowDown img {
+  width: 20px;
+}
+
+@media only screen and (width <= 768px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

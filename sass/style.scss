@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  border: 2px solid black;
+  // header {
+  //   align-items: center;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   .logo {
+  //   }
+  //   .nav_items {
+  //     width: 60%;
+  //     max-width: 60%;
+  //     ul {
+  //       justify-content: space-between;
+  //       display: flex;
+  //       flex-wrap: wrap;
+  //       li {
+  //         list-style: none;
+  //         a {
+  //           text-decoration: none;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  main {
+    // .other_locations {
+    //   .breadcrumb {
+    //     padding: 10px 0px;
+    //     list-style: none;
+    //     li {
+    //       display: inline;
+    //       font-size: 18px;
+    //       & + li {
+    //         &:before {
+    //           padding: 8px;
+    //           color: black;
+    //           content: "/\00a0";
+    //         }
+    //       }
+    //       a {
+    //         text-decoration: none;
+    //         &:hover {
+    //           color: #01447e;
+    //           text-decoration: underline;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    .review_DiyaTelecom {
+      .rating_stars {
+        width: 100px;
+        img {
+          width: 100%;
+        }
+      }
+      display: flex;
+      .left_sec {
+        .bold_txt {
+          font-size: 30px;
+          font-family: ViBold;
+          color: #2f3043;
+        }
+        .sml_txt {
+          font-size: 24px;
+          font-weight: 400;
+          color: #595969;
+        }
+
+        .outlet_details_box {
+          border: 2px solid green;
+          .each_detail {
+            display: flex;
+            .details_icons {
+              width: 10%;
+              img {
+                width: 20%;
+              }
+            }
+          }
+        }
+        width: 50%;
+      }
+      .right_sec {
+        .txt_with_stars {
+          display: flex;
+        }
+        border: 2px solid red;
+        width: 50%;
+        .rating_reviews {
+          .reviews_title {
+            justify-content: space-between;
+            display: flex;
+            border: 2px solid red;
+          }
+          .outlet_overall_rating {
+            justify-content: space-between;
+            display: flex;
+            .txt_with_stars {
+              display: flex;
+            }
+          }
+          .customers {
+            justify-content: space-between;
+            display: flex;
+          }
+          .border_dotted {
+            border-bottom: dotted 2px black;
+          }
+          .parking_options {
+            border: 2px solid red;
+            .option_tab {
+              justify-content: space-between;
+              display: flex;
+            }
+          }
+        }
+        .icon_arrowDown {
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (width<=768px) {
+  ul {
+    flex-direction: column;
+  }
+}
